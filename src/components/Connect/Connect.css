@@ -1,0 +1,134 @@
+.container-col{
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top:150px ;
+}
+
+
+
+.connect{ 
+    border: 1px solid gray;
+    border-radius: 220px;
+    padding: 90px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background: #FCD535;
+}
+.title {
+    font-size: 60px;
+    font-weight: 600; 
+    margin: 10px;
+}
+.description {
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 18px;
+    color: black;
+}
+.button {
+    border: none;
+    outline: none;
+    background: black;
+    color: yellow;
+    padding: 15px 25px;
+    font-size: 22px;
+    border-radius: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+@media (min-width: 1640px) and (max-width: 1886px) {
+    .container-col {
+        padding-left: 290px; /* Adjust as needed */
+        padding-right: 290px;
+        padding-top: 220px;
+    }
+
+    .connect { 
+        border-radius: 180px;
+        padding: 70px;
+    }
+
+    .title {
+        font-size: 55px;
+    }
+
+    .description {
+        padding-left: 140px;
+        padding-right: 140px;
+        font-size: 16px;
+    }
+
+    .button {
+        padding: 12px 20px;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+}
+
+
+@media (min-width: 1640px) and (max-width: 1737px){
+
+    .description{
+        padding-left: 125px;
+        padding-right: 125px;
+        font-size: 16px;
+
+    }
+}
+
+@media (min-width: 1640px) and (max-width: 1662px)
+{
+    .description{
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 16px;
+
+    }
+}
+
+
+
+
+@media (min-width: 1440px) and (max-width: 1640px) {
+    .container-col {
+        padding-left: 190px;
+        padding-right: 180px;
+        padding-top: 80px; /* Adjusted for better alignment */
+    }
+
+    .connect { 
+        border-radius: 180px;
+        padding: 70px;
+        max-width: 1200px; /* Ensuring consistency */
+        margin-top: 100px; /* Centering the element */
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .description {
+        padding-left: 120px;
+        padding-right: 120px;
+        font-size: 16px;
+    }
+
+    .button {
+        padding: 12px 20px;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+}
+
+
+@media (min-width: 1520px) and (max-width: 1640px){
+
+    .description{
+        padding-left: 150px;
+        padding-right: 150px;
+        font-size: 16px;
+
+    }
+}
