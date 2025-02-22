@@ -5,7 +5,7 @@ import './Featuretitle.css'
 const Featuretitle =()=>{
 
     return (
-        <p className="title"> Feature</p>
+        <p className="title-2"> Feature</p>
 
     );
 };
