@@ -39,7 +39,7 @@ const responsive = {
 
 const Slider = () => {
   return (
-    <Carousel responsive={responsive} autoPlay={true} infinite={true}>
+    <Carousel responsive={responsive} autoPlay={true} infinite={true}   arrows={true} >
       {featureData.map((item, index) => (
         <Feature
           key={index}

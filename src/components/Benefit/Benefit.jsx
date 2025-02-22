@@ -14,6 +14,7 @@ const Benefit=()=>{
                  <p className='benefit-description'>Dive into thriving communities tailored to your interests. Share ideas, seek advice, and spark innovation by connecting with like-minded individuals.</p>
                </div>
                <div className='benefit-rightbox'>
+                 <img src="/Images/ben1.png" alt=""/>
                </div>
             </div>
 
@@ -23,6 +24,7 @@ const Benefit=()=>{
                  <p className='benefit-description'>Dive into thriving communities tailored to your interests. Share ideas, seek advice, and spark innovation by connecting with like-minded individuals.</p>
                </div>
                <div className='benefit-rightbox'>
+               <img src="/Images/ben2.png" alt=""/>
                </div>
             </div>
 
@@ -32,6 +34,7 @@ const Benefit=()=>{
                  <p className='benefit-description'>Dive into thriving communities tailored to your interests. Share ideas, seek advice, and spark innovation by connecting with like-minded individuals.</p>
                </div>
                <div className='benefit-rightbox'>
+               <img src="/Images/ben3.png" alt=""/>
                </div>
             </div>
 
@@ -41,6 +44,7 @@ const Benefit=()=>{
                  <p className='benefit-description'>Dive into thriving communities tailored to your interests. Share ideas, seek advice, and spark innovation by connecting with like-minded individuals.</p>
                </div>
                <div className='benefit-rightbox'>
+               <img src="/Images/ben4.png" alt=""/>
                </div>
             </div>
 

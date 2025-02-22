@@ -35,3 +35,19 @@ const Feature = ({ title, description, img }) => {
 };
 
 export default Feature;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

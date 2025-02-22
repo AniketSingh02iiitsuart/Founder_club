@@ -18,7 +18,7 @@ const herosection=()=>{
           </div>
           
           <div className="underline"></div>
-          <p className="description">
+          <p className="description-p1">
             Foundersclub is your gateway to connect, innovate, and thrive. 
             Join a global community of startups and professionals driving the 
             future of business and technology.

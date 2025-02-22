@@ -1,16 +1,17 @@
 /* Main Container */
 .feature-container {
-    display: flex;
-    justify-content: center;
-    padding: 80px;
+   display: flex;
+   justify-content: center;
+   padding: 100px;
+  
+ 
   }
   
   /* Feature Content Wrapper */
   .feature-content {
     display: flex;
     justify-content: space-between;
-   align-items: center;
-    padding: 20px;
+    padding: 50px;
     background: #181a20;
     border-radius: 30px;
     gap: 20px;
@@ -20,7 +21,7 @@
   /* Left Section - Text Content */
   .feature-text {
     color: white;
-    padding: 30px 0px;
+    padding: 50px 0px;
     max-width: 500px;
   
   }
@@ -34,6 +35,7 @@
     margin-bottom: 30px;
     font-size: 22px;
     color: #848e9c;
+    margin-top: 48px;
   }
   
   /* Feature Points */
@@ -56,72 +58,8 @@
   
   /* Right Section - Image */
   .feature-image img {
-    width: 570px;
-    max-width: 100%;
+    width: 450px;
     border-radius: 20px;
   }
   
-  /* Responsive Design */
-  @media (max-width: 980px) {
-    .feature-content {
-      flex-direction: column;
-      text-align: center;
-      padding: 20px;
-    }
-  
-    .feature-text h1 {
-      font-size: 22px;
-    }
-  
-    .feature-description {
-      font-size: 14px;
-    }
-  
-    .feature-image img {
-      width: 250px;
-    }
-  }
-  
-  @media (max-width: 700px) {
-    .feature-content {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding: 15px;
-    }
-  
-    .feature-text {
-      padding: 10px 0px;
-    }
-  
-    .feature-image {
-      width: 100%;
-      max-width: 300px;
-    }
-  
-    .feature-image img {
-      width: 100%;
-      height: auto;
-      border-radius: 20px;
-    }
-  
-    .feature-text h1 {
-      font-size: 18px;
-    }
-  
-    .feature-description {
-      font-size: 12px;
-      margin-bottom: 15px;
-    }
-  
-    .feature-point {
-      padding: 5px 12px;
-      font-size: 12px;
-      margin-bottom: 8px;
-    }
-  
-    .feature-point img {
-      width: 15px;
-    }
-  }
   
