@@ -1,0 +1,84 @@
+/* Centering the FAQ section */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 180px;
+
+}
+
+/* FAQ Box */
+.faq-section {
+    background: #181A20;
+    color: white;
+    border-radius: 30px;
+    padding: 40px;
+    width: 70%;
+    max-width: 1000px; 
+}
+
+/* Title Styling */
+.faq-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+/* FAQ Item */
+.faq-item {
+    margin: 20px 0;
+}
+
+/* Question Styling */
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+/* Answer Styling */
+.faq-answer {
+    color: #848E9C;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Rotating Icon */
+.icon-rotate {
+    transform: rotate(90deg);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Underline Divider */
+.underline {
+    height: 1px;
+    background-color: #848E9C;
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1440px) {
+    .faq-section {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .faq-section {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .faq-question {
+        font-size: 16px;
+    }
+
+    .faq-answer {
+        font-size: 14px;
+    }
+}
